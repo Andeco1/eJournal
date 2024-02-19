@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Класс"
+            android:textAlignment="center"
+            android:textSize="35sp">
+
+    </TextView>
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/classes_spinner">
+
+    </Spinner>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Неделя"
+        android:textAlignment="center"
+        android:textSize="35sp">
+
+    </TextView>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/weeks_spinner">
+
+    </Spinner>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Учебный предмет"
+        android:textAlignment="center"
+        android:textSize="35sp">
+
+    </TextView>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/subjects_spinner">
+
+    </Spinner>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/show"
+        android:text="Показать">
+
+    </Button>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ФИО  "
+            android:textSize="35sp">
+
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="right">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ПН "
+                android:textSize="20sp">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ВТ "
+                android:textSize="20sp">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="СР "
+                android:textSize="20sp">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ЧТ "
+                android:textSize="20sp">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ПТ "
+                android:textSize="20sp">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="СБ "
+                android:textSize="20sp">
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/listOfMarks">
+
+    </ListView>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/go_back"
+            android:text="Вернуться назад">
+
+    </Button>
+
+</LinearLayout>

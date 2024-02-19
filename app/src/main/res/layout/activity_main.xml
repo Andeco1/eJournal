@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:text="Школа">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="название"
+        android:textSize="30sp"
+        android:id="@+id/scool_name">
+
+    </TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Преподаватели"
+        android:id="@+id/teacher">
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Учащиеся"
+        android:id="@+id/learners">
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Имеют доступ в школу"
+        android:id="@+id/participant">
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Классы"
+        android:id="@+id/classes">
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Электронный журнал"
+        android:id="@+id/ejournal">
+
+    </Button>
+
+</LinearLayout>
